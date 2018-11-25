@@ -1,0 +1,115 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: $grey;
+  background-color: $GhostWhite;
+
+  nav.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    display: block;
+    top: 0;
+  }
+
+  .logo {
+    font-family: 'Satisfy', cursive;
+    &.navbar-brand {
+      font-size: 26px;
+
+    }
+  }
+  .navbar-item {
+    padding: 12px;
+  }
+
+  .button.is-primary{
+    background-color: $lightBlue;
+  }
+  .button.is-primary:hover{
+    background-color: $lightBlueD;
+  }
+
+  .title {
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: $HanBlue;
+    font-style: italic;
+  }
+
+  main.main .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  section.features {
+    padding-top: 70px;
+    text-align: center;
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%
+    }
+  }
+
+  section.quote {
+    margin-to: 70px;
+    background: white;
+    padding: 50px 30px;
+  }
+
+  blockquote {
+
+    font-style:italic;
+    font-size: 200%;
+
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  .blockquote-name {
+    text-align:right;
+    padding-right: 20%;
+  }
+
+
+  a figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  a figure:hover img {
+    opacity: .5;
+  }
+
+  .button.is-primary.is-rounded.is-medium{
+    margin: 20px;
+  }
+
+  p.form-or.level-item {
+    color: $HanBlue;
+    margin-bottom: 2px;
+
+  }
+  div.level-item.button {
+    margin-bottom: 2px;
+  }
+  div.level-item.form-or {
+    margin-bottom: 2px;
+  }
+
+  button.button.is-rounded, select {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+
+
+}
